@@ -1,0 +1,18 @@
+Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> n=int(input("Enter number:"))
+Enter number:12321
+>>> temp=n
+>>> rev=0
+>>> while(n>0):
+...     dig=n%10
+...     rev=rev*10+dig
+...     n=n//10
+...
+>>> if(temp==rev):
+...     print("The number is a palindrome!")
+... else:
+...     print("The number isn't a palindrome!")
+...
+The number is a palindrome!
+>>>
